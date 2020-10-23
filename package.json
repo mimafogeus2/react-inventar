@@ -8,6 +8,7 @@
   "repository": "https://github.com/mimafogeus2/react-inventar",
   "license": "MIT",
   "keywords": [],
+  "private": false,
   "scripts": {
     "describe": "npm-scripts-info",
     "build": "run-s clean:build && run-p build:*",
