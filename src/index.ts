@@ -1,1 +1,3 @@
-export default 'THIS IS A STARTER. IMPLEMENT SOMETHING.'
+import { IReactInventarProps, ReactInventar } from './lib'
+
+export { IReactInventarProps, ReactInventar }

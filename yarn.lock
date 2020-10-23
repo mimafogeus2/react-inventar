@@ -3361,6 +3361,11 @@ ini@^1.3.2, ini@^1.3.4, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
+inventar@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/inventar/-/inventar-0.1.2.tgz#986d2e10a9ccbc52c275a39e12718a18b381166d"
+  integrity sha512-2iEvRbrboad7iF20EQEzPA/s7sMBMx6t8d1kfX99snGb0uEcSwFvwlLjaENyCzmDnAzVWRYmxtkxk3+9dvHbfA==
+
 invert-kv@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"

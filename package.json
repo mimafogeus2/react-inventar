@@ -1,11 +1,11 @@
 {
-  "name": "typescript_starter",
-  "version": "1.0.0",
-  "description": "Starter Project",
+  "name": "@inventar/react-inventar",
+  "version": "0.1.2",
+  "description": "Inventar React wrapper.",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.esm.js",
-  "repository": "https://github.com/mimafogeus2/typescript_starter",
+  "repository": "https://github.com/mimafogeus2/react-inventar",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -44,7 +44,9 @@
   "engines": {
     "node": ">=10.16"
   },
-  "dependencies": {},
+  "dependencies": {
+    "inventar": "^0.1.2"
+  },
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
     "@istanbuljs/nyc-config-typescript": "^0.1.3",

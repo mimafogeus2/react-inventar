@@ -3,10 +3,14 @@ import React from 'react'
 import { configure, shallow } from 'enzyme'
 import test from 'ava'
 
-import { Placeholder } from '.'
+import { ReactInventar } from '.'
 
 configure({ adapter: new Adapter() })
 test('Placeholder', t => {
-	const rendered = shallow(<Placeholder />)
-	t.is(rendered.render().text(), 'THIS IS A STARTER. IMPLEMENT SOMETHING.')
+	const rendered = shallow(
+    <ReactInventar config={{ red: '#f00' }}>
+      <div style={{ color: 'var(--red)' }}>123</div>
+    </ReactInventar>
+  )
+  t.is(rendered.render().attr('style'), '--red:#f00')
 })
